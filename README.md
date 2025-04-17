@@ -1,5 +1,7 @@
+![](https://d1eipm3vz40hy0.cloudfront.net/images/AMER/fourillustratedreasonstouseticketdeflection.png)
+
 # Building an AI-Powered Slack Bot for Ticket Deflection using Azure OpenAI and Zendesk  
-   
+
 In today's digital landscape, customer support teams are continually seeking innovative ways to enhance efficiency and improve customer satisfaction. One effective strategy is **ticket deflection**, which empowers customers to resolve their issues through self-service options without direct agent involvement. By leveraging artificial intelligence (AI) and automation, businesses can significantly reduce the volume of support tickets, allowing agents to focus on more complex and high-value queries.  
    
 This blog post explores how to build an AI-powered Slack bot using Python, Slack Bolt, and Azure OpenAI. This bot assists in ticket deflection by providing instant responses to user queries within Slack. We'll also discuss how integrating this bot with Zendesk can further streamline customer support operations.  
