@@ -1,0 +1,30 @@
+# config.yaml  
+  
+ticketing_systems:  
+  - name: zendesk_plugin  
+    enabled: true  
+    config:  
+      subdomain: your_zendesk_subdomain  
+      email: your_email@example.com  
+      api_token: your_zendesk_api_token  
+  
+  - name: jira_plugin  
+    enabled: true  
+    config:  
+      domain: your_jira_domain  
+      email: your_email@example.com  
+      api_token: your_jira_api_token  
+      project_key: your_jira_project_key  
+  
+  - name: salesforce_plugin  
+    enabled: false  
+    config:  
+      username: your_salesforce_username  
+      password: your_salesforce_password  
+      security_token: your_salesforce_security_token  
+  
+  - name: custom_plugin  
+    enabled: false  
+    config:  
+      api_url: https://api.customsystem.com  
+      api_key: your_custom_api_key  
